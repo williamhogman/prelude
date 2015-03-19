@@ -18,3 +18,8 @@
       sml/projectile-replacement-format "%s/"
       )
 (sml/setup)
+
+(setq frame-title-format
+      '(" Emacs - " (:eval (if (buffer-file-name)
+                               (abbreviate-file-name (buffer-file-name))
+                             "%b"))))
