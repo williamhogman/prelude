@@ -14,5 +14,6 @@
 
 (add-hook 'web-mode-hook 'will-web-mode-style-hook)
 
+(custom-set-variables '(coffee-tab-width 2))
 (provide 'web-client-side)
 ;;; web-client-side.el ends here
