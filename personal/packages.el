@@ -1,3 +1,7 @@
+;;; packages.el --- Loads of bunch of packages
+;;; Commentary:
+;;; License:
+;;; Code:
 (prelude-require-packages '(
                             solarized-theme
                             fish-mode ;; fish shell script editing
