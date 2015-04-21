@@ -8,6 +8,7 @@
 ;;; Settings from prelude-helm-everywhere related to projectile
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
+(helm-autoresize-mode 1)
 
 (defun projectile-helm-ag ()
   (interactive)

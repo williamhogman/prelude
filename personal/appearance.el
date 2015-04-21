@@ -3,7 +3,7 @@
 ;;; Configures the looks of my emacs installation
 ;;; Code:
 
-(set-default-font "Inconsolata-16")
+(set-default-font "Inconsolata-18")
 
 ;; No scrollbars ever
 (scroll-bar-mode -1)
