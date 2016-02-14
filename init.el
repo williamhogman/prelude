@@ -139,17 +139,3 @@ by Prelude.")
  (run-at-time 5 nil 'prelude-tip-of-the-day))
 
 ;;; init.el ends here
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (git-commit-mode json-reformat org spinner zop-to-char zenburn-theme yari yaml-mode web-mode volatile-highlights undo-tree solarized-theme smex smartrep smartparens smart-mode-line scss-mode ruby-tools rainbow-mode rainbow-delimiters pkgbuild-mode paradox ox-reveal ov operate-on-number move-text markdown-mode magit json-mode js2-mode inf-ruby ido-ubiquitous helm-projectile helm-descbinds helm-dash helm-ag guru-mode grizzl god-mode go-mode gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck flx-ido fish-mode expand-region ess erlang elixir-mode elisp-slime-nav ein easy-kill dockerfile-mode discover-my-major diminish diff-hl csv-mode company-anaconda coffee-mode cider browse-kill-ring anzu ace-window ace-jump-buffer))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
