@@ -5,6 +5,10 @@
 
 (set-default-font "Inconsolata-18")
 
+(setq auto-save-file-name-transforms
+      `((".*" ,(expand-file-name
+                (concat user-emacs-directory "auto-save")) t)))
+
 ;; No scrollbars ever
 (scroll-bar-mode -1)
 
