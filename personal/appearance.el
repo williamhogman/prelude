@@ -3,7 +3,7 @@
 ;;; Configures the looks of my emacs installation
 ;;; Code:
 
-(set-default-font "Inconsolata-18")
+(setq default-frame-alist '((font . "Menlo-18")))
 
 (setq auto-save-file-name-transforms
       `((".*" ,(expand-file-name
