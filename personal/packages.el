@@ -9,4 +9,5 @@
                             paradox ;; Better package manager
                             helm-dash ;; Dash for helm
                             company-anaconda
+                            helm-projectile
                             ))
