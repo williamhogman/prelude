@@ -14,6 +14,6 @@
   (interactive)
   (helm-ag (projectile-project-root)))
 
-(define-key helm-command-map (kbd "s") 'projectile-helm-ag)
+;;(define-key helm-command-map (kbd "s") 'projectile-helm-ag)
 
 ;;; searching.el ends here
