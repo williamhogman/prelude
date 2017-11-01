@@ -10,4 +10,5 @@
                             helm-dash ;; Dash for helm
                             company-anaconda
                             helm-projectile
+                            solarized-theme
                             ))
