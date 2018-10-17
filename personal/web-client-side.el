@@ -26,6 +26,12 @@
                       '(js2-missing-semi-one-line-override t)
                       '(js2-strict-missing-semi-warning nil))
 
+(add-hook 'js2-mode-hook 'prettier-js-mode)
+(add-hook 'web-mode-hook 'prettier-js-mode)
+
+(add-hook 'web-mode-hook #'(lambda ()
+                             (enable-minor-mode
+                              '("\\.jsx?\\'" . prettier-js-mode))))
 
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
