@@ -21,4 +21,5 @@
 
                             bbdb
                             notmuch
+                            reformatter
                             ))
